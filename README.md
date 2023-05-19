@@ -1,7 +1,7 @@
 Search Engine
 =================================================
 ## Description
-This project is a simple full stack search engine webapp that displays X amount of relevant search results with a search query that starts at a seed URL. It utilizes a multi-threaded inverted index to store an HTML webpage's word stems, their file location, and the position in the file. When a search query is entered from the UI, depending on the search flag provided, either an exact or partial search will be made against the inverted index. A webcrawler is used to crawl an HTML webpage for other links to traverse, storing already traversed links into a list to avoid re-crawling, until the crawler hits the max number of links to crawl. 
+This project is a simple full stack search engine webapp that displays X amount of relevant search results using a custom multi-threaded webcrawler that starts at a given seed URL. It utilizes a multi-threaded inverted index to store an HTML webpage's word stems, their file location, and the position in the file. When a search query is entered from the UI, depending on the search flag provided, either an exact or partial search will be made against the inverted index. A webcrawler is used to crawl an HTML webpage for other links to traverse, storing already traversed links into a list to avoid re-crawling, until the crawler hits the max number of links to crawl. 
 
 Relevance is calculated based on 
 1) Score (Total number of matches divided by total number of words in the file)
