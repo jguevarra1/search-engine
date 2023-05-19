@@ -35,4 +35,6 @@ This is what an example run looks like when a search is entered and the results 
 
 ![search-engine-example](https://github.com/jguevarra1/search-engine/assets/73259113/8e57871d-0c97-448f-afa2-3df43c74833b)
 
+*Note* This project's source code was copied and pasted over from my school repository since forking was disabled.
+
  
