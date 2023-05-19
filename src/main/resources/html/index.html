@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>${title}</title>
+</head>
+
+<body>
+  <h1>Search Engine</h1>
+
+  <form method="${method}" action="${action}">
+    <p>
+      <label for="search">New Search:</label>
+      <input type="text" name="search" id="search" maxlength="50" size="20">
+    </p>
+    
+    <p><input type="submit" value="search"></p>
+  </form>
+  
+  ${results}
+  
+  <p>This request was handled by thread ${thread}.</p>
+
+</body>
+</html>
